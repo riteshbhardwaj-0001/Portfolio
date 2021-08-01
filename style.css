@@ -1,0 +1,639 @@
+
+/*
+===============================================================================================================
+                                                    Start Home Section |     |    |     |     |     |     |    
+===============================================================================================================
+*/
+HTML{
+	scroll-behavior: smooth;
+}
+
+a{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.main{
+	width:100%;
+	height:100vh;
+	background: #03031b;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+.main .circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 80px;
+	margin-top: -120px;
+	background: #FF0033;
+}
+
+.main .circle-1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	margin-left: 60px;
+	margin-bottom: -30px;
+	background: #FF0033;
+}
+
+.main .section{
+	width: 80%;
+	height: 80%;
+	margin-left: 130px;
+	top:80px;
+	position: absolute;
+	overflow: hidden;
+	background: #03031b; 
+	box-shadow: 8px 8px 15px 0 rgba(0,0,0,0.7),-8px -8px 15px 0 rgba(0,0,0,0.6);
+}
+
+.main .section nav{
+	width: 100%;
+	height: 60px;
+}
+
+.main .section nav .logo{
+	font-size: 40px;
+	line-height: 0;
+	padding-left: 30px;
+	color: #FF0033;
+	margin-top: 0;
+	position: absolute;
+}
+
+.main .section nav ul{
+	float: right;
+	margin-right: 70px;
+	 margin-top: 10px;
+}
+
+.main .section nav ul li{
+	display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    position: relative;
+    line-height: 60px;
+   }
+
+   .main .section nav ul li a{
+   	color: white;
+   }
+
+.main .section nav ul li a:hover{
+	background: #FF0033;
+}
+
+.main .section nav ul .btn{
+	width: 130px;
+	height: 45px;
+	background: none;
+	color: white;
+	border:2px solid white;
+	border-radius: 30px;
+}
+
+.main .section nav ul .btn:hover{
+	background: #FF0033;
+}
+
+.main .section .intro{
+	padding-left: 40px;
+	color: white;
+}
+
+.main .section .intro img{
+	width: 400px;
+	height: auto;
+	border-radius: 10px;
+	position: relative;
+	float:right;
+	margin-right: 90px;
+	margin-top: 50px;
+	border:2px solid white;
+}
+.main .section .intro .heading{
+	margin-top: 80px;
+	letter-spacing: 2px;
+	padding-bottom: 0;
+	font-size: 33px;
+}
+
+.main .section .intro h1{
+	font-weight: bold;
+	font-size: 60px;
+	padding-bottom: 0;
+}
+
+.main .section .intro p{
+	font-size: 25px;
+	padding-bottom: 0;
+}
+
+.main .section .intro h3{
+	padding-bottom: 0;
+	font-size: 25px;
+}
+
+.main .section .intro i{
+	font-size: 30px;
+	letter-spacing: 8px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width:37px; 
+	height: 37px;
+	text-align: center;
+	color:#fff;
+}
+
+.main .section .intro .btn-1{
+     width: 130px;
+	height: 45px;
+	background: none;
+	color: white;
+	border:2px solid white;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+
+.main .section .intro .btn-1:hover{
+	background: red;
+}
+
+
+.main .section .intro .in-btn-1{
+	width: 150px;
+	height: 50px;
+	background: none;
+	border:2px solid white;
+	color: white;
+	font-size:18px;
+	border-radius:30px;
+	margin-top: 20px;
+}
+
+.main .section .intro .in-btn-1:hover{
+	background: red;
+}
+
+
+
+.main .section .intro .circle-2{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: -120px;
+	left: 30%;
+	background: #003366;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+.main .section .intro p span.blink{
+	animation-duration: 1000ms;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes blink{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+
+
+/*
+=========================================================================================================================
+                                                    End Home Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+
+/*
+=========================================================================================================================
+                                                    Start About Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+
+.main-1{
+	background: #03031b;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-size: cover;
+	overflow: hidden;
+	top:950px;
+	
+}
+
+.main-1 .circle-3{
+	background: #FF0033;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	margin-top: -110px;
+}
+
+.main-1 .circle-4{
+	background: #FF0033;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	margin-bottom: -10px;
+	margin-left: 20px;
+	bottom: 0;
+}
+
+.main-1 .section-1{
+	background: white;
+	width: 88%;
+	height: 78%;
+	position: absolute;
+	margin-left: 80px;
+	top: 100px;
+	box-shadow: 8px 8px 15px 0 rgba(0,0,0,0.7),-8px -8px 15px 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.main-1 .section-1 .circle-5{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	background: #003366;
+	top:-130px;
+	left:90px;
+	opacity: 0.7;
+}
+
+.main-1 .section-1 .nav-1{
+	width: 100%;
+	height: 80px;
+}
+.main-1 .section-1 .nav-1 .logo-1{
+     font-size: 40px;
+	line-height: 0;
+	padding-left: 470px;
+	color: #FF0033;
+	margin-top: 0;
+	position: absolute;
+}
+
+.main-1 .section-1 .nav-1 .logo-1::before{
+	content: "";
+	position: absolute;
+	left: 82%;
+	height: 3px;
+	width: 250px;
+	bottom: 0px;
+	background: #03031b;
+	transform: translateX(-50%);
+}
+
+.main-1 .section-1 .nav-1 .logo-1::after{
+	content: "who i am";
+	position: absolute;
+	bottom: -12px;
+	left: 81%;
+	font-size: 20px;
+	color: #007bb6;
+	font-weight: bold;
+	padding: 15px;
+	transform: translateX(-50%);
+	background: white;
+}
+
+.main-1 .section-1 .nav-1 ul{
+	float: right;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+
+.main-1 .section-1 .nav-1 ul li{
+	display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative;
+    line-height: 90px;
+}
+
+.main-1 .section-1 .nav-1 ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.main-1 .section-1 .nav-1 ul li a:hover{
+	background:#FF0033;
+}
+
+.main-1 .section-1 .nav-1 ul .btn{
+	width: 130px;
+	height: 45px;
+	background: #007bb6;
+	color: white;
+	border:2px solid white;
+	border-radius: 30px;
+}
+
+.main-1 .section-1 .nav-1 ul .btn:hover{
+	background: #FF0033;
+}
+ 
+section{
+	padding: 100px 0;
+}
+.about{
+	font-family: 'Poppins',sans-serif;
+}
+
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about .about-content .column-left{
+   width:45%;
+}
+
+.about .about-content .column-left img{
+	height: 350px;
+	width: 350px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-left: 80px;
+	margin-bottom: 220px;
+	border: 2px solid black;
+}
+
+.about .about-content .column-right{
+   width:55%;
+}
+
+.about .about-content .column-right .text{
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 250px;
+}
+
+.about .about-content .column-right p{
+	font-size: 20px;
+	text-align: justify;
+	margin-right: 50px;
+}
+
+.about .about-content .column-right h3{
+	font-size: 22px;
+	font-family:sans-serif;
+}
+
+.about .about-content .column-right i{
+	font-size: 30px;
+	letter-spacing: 8px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width:37px; 
+	height: 37px;
+	text-align: center;
+	color:#fff;
+}
+
+.about .about-content .column-right .btn-1{
+	width: 130px;
+	height: 45px;
+	background: red;
+	color: white;
+	border:2px solid white;
+	border-radius: 30px;
+	float: right;
+	margin-right: 50px;
+}
+
+.about .about-content .column-right .btn-1:hover{
+	background: #007bb6;
+}
+
+.about .about-content .column-right span.blink{
+	animation-duration: 1000ms;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes blink{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+
+/*
+=========================================================================================================================
+                                                    End About Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+
+/*
+=========================================================================================================================
+                                                    Start Skills Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+.skills{
+	width: 100%;
+	height: 100vh;
+    background: #03031b;
+    background-size: cover;
+    top:1900px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.skills .circle-6{
+	background: #FF0033;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	margin-top: -110px;
+}
+
+.skills .circle-7{
+	background: #FF0033;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	margin-bottom: -10px;
+	margin-left: 20px;
+	bottom: 0;
+}	
+
+.skills .portion{
+	background: #03031b;
+	width: 88%;
+	height: 78%;
+	position: absolute;
+	margin-left: 80px;
+	top: 100px;
+	box-shadow: 8px 8px 15px 0 rgba(0,0,0,0.7),-8px -8px 15px 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.skills .portion .circle-8{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	background: #003366;
+	opacity: 0.7;
+	top: -120px;
+	left: 80px;
+}
+
+.skills .portion .nav-2{
+	width: 100%;
+	height: 80px;
+	float: right;
+}
+
+.skills .portion .nav-2 .logo-2{
+	font-size: 40px;
+	line-height: 0;
+	padding-left: 460px;
+	color: #FF0033;
+	margin-top: 0;
+	position: absolute;
+}
+
+.skills .portion .nav-2 .logo-2:before{
+	content: "";
+	position: absolute;
+	left: 83%;
+	height: 3px;
+	width: 250px;
+	bottom: 0px;
+	background: white;
+	transform: translateX(-50%);
+}
+
+.skills .portion .nav-2 .logo-2:after{
+    content: "what i know";
+    position: absolute;
+	bottom: -12px;
+	left: 80%;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+	transform: translateX(-40%);
+	background: #03031b;
+}
+
+.skills .portion .nav-2 ul{
+    float: right;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+
+.skills .portion .nav-2 ul li{
+	display: inline;
+	font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    position: relative;
+    line-height: 90px;
+}
+
+.skills .portion .nav-2 ul li a{
+     text-decoration: none;
+     color: white;
+}
+
+.skills .portion .nav-2 ul .button{
+    width: 130px;
+	height: 45px;
+	background: red;
+	color: white;
+	border:2px solid white;
+	border-radius: 30px;
+}
+
+.skills .portion .nav-2 ul li a:hover{
+	background: red;
+}
+
+.skills .portion .nav-2 ul .button:hover{
+	background: #007bb6;
+}
+
+
+/*
+=========================================================================================================================
+                                                    End Skills Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+
+/*
+=========================================================================================================================
+                                                    Start Footer Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
+footer {
+    width: 100%;
+    height: 80px;
+    background: #03031b;
+    position: absolute;
+    top: 2950px!important;
+    left: 0;
+    overflow: hidden;
+}
+ 
+footer h2{
+   color: red;
+   font-size: 40px;
+   margin-left: 80px;
+  line-height: 0;
+   padding-top:5px;
+} 
+
+footer p{
+    text-align: center;
+    color: white;
+    line-height: 0;
+    font-size: 20px;
+    margin-top:-30px;
+}
+
+
+/*
+=========================================================================================================================
+                                                    End Footer Section  |    |     |   |    |     |     |      |      |     
+=========================================================================================================================
+*/
